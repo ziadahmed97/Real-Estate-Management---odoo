@@ -1,0 +1,158 @@
+
+:root{
+  --ol-bg: #ffffff;
+  --ol-foreground: #2b2b2b;
+  --ol-muted: #6b7280;
+  --ol-accent: #0ea5a8; /* teal */
+  --ol-highlight: #fff4cc; /* soft yellow */
+  --ol-border: #e6e9ef;
+  --ol-radius: 8px;
+  --ol-padding: 0.75rem; /* 12px */
+}
+
+/* Responsive wrapper (note: keep both spellings in case of typo) */
+.table-responsive{
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  background: var(--ol-bg);
+  border-radius: var(--ol-radius);
+}
+
+/* Container for Odoo-style list view */
+.o_list_view{
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  color: var(--ol-foreground);
+  font-size: 0.95rem;
+}
+
+.o_list_table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: auto;
+  background: transparent;
+  min-width: 600px; /* allows horizontal scroll on small screens */
+}
+
+.o_list_table th,
+.o_list_table td{
+  padding: var(--ol-padding);
+  border-bottom: 1px solid var(--ol-border);
+  vertical-align: middle;
+  text-align: left;
+}
+
+/* Column header style (some codebases use o_list_column_header as a class) */
+.o_list_column_header,
+.o_list_table th{
+  font-weight: 600;
+  color: var(--ol-foreground);
+  background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(250,250,250,0.6));
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+/* Small, subtle help text inside header cells */
+.o_list_table th .muted{
+  display: block;
+  font-size: 0.78em;
+  color: var(--ol-muted);
+  font-weight: 500;
+}
+
+/* Hover effect for rows */
+.o_list_table tr:hover{
+  background: rgba(14,165,168,0.03);
+}
+
+/* Highlighted row (selection / important) */
+.o_list_table .highlight{
+  background: linear-gradient(90deg, rgba(255,244,204,0.6), rgba(255,250,235,0.6));
+  border-left: 4px solid var(--ol-accent);
+  transition: background-color 180ms ease, box-shadow 180ms ease;
+}
+
+/* Zebra stripes for readability */
+.o_list_table tbody tr:nth-child(odd){
+  background: rgba(11,20,30,0.01);
+}
+
+/* Compact / dense mode helper */
+.o_list_table.compact th,
+.o_list_table.compact td{
+  padding: 0.45rem;
+}
+
+/* Narrow / number column */
+.o_list_table td.numeric,
+.o_list_table th.numeric{
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Checkbox / action column */
+.o_list_table td.checkbox-cell{
+  width: 48px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Focus and accessibility outlines for keyboard users */
+.o_list_table td:focus,
+.o_list_table th:focus{
+  outline: 3px solid rgba(14,165,168,0.15);
+  outline-offset: 2px;
+}
+
+/* Small screens: make each cell block-level for better readability */
+@media (max-width: 640px){
+  .table-responsive .o_list_table,
+  .table-reponsive .o_list_table{
+    min-width: unset;
+  }
+
+  .o_list_table{
+    display: block;
+  }
+
+  .o_list_table thead{ display: none; }
+
+  .o_list_table tbody tr{
+    display: block;
+    border-bottom: 1px solid var(--ol-border);
+    margin-bottom: 0.5rem;
+  }
+
+  .o_list_table tbody td{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem;
+  }
+
+  .o_list_table tbody td::before{
+    content: attr(data-label);
+    font-weight: 600;
+    color: var(--ol-muted);
+    margin-right: 0.5rem;
+    white-space: nowrap;
+  }
+}
+
+/* Utility: subtle divider when table used inside cards */
+.o_list_table.card-divider{
+  border-radius: var(--ol-radius);
+  overflow: hidden;
+}
+
+/* Small helper for empty state cells */
+.o_list_table td.empty::after{
+  content: "—";
+  color: var(--ol-muted);
+}
+
+/* End of o_list styles */

@@ -1,0 +1,71 @@
+<odoo>
+    <record id="building_view_tree" model="ir.ui.view">
+        <field name="name">building tree</field>
+        <field name="model">building</field>
+        <field name="arch" type="xml">
+            <list multi_edit="True" create="1" edit="1" delete="1" class="header_custom">
+                <field name="name"/>
+                <field name="description"/>
+                <field name="no"/>
+                <field name="code"/>
+                <field name="active"/>
+            </list>
+        </field>
+
+    </record>
+
+    <record id="building_view_form" model="ir.ui.view">
+        <field name="name">building form</field>
+        <field name="model">building</field>
+        <field name="arch" type="xml">
+            <form  create="1" edit="1" delete="1">
+                <sheet>
+                    <header>
+<!--                        <button name="action_draft" type="object" class="btn-primary" string="set to draft" invisible="state == 'draft' "/>-->
+<!--                        <button name="action_pending" type="object" class="btn-primary" string="set to pending " invisible="state != 'draft'"/>-->
+<!--                        <button name="action_sold" type="object" class="btn-primary" string="set to sold" invisible="state != 'pending'"/>-->
+<!--                         <field name="state" widget="statusbar" options="{'clickable':0}"/>-->
+<!--                        statusbar_visible="draft,sold"-->
+                    </header>
+                    <group>
+                        <group string="General info">
+                            <field name="name"/>
+                            <field name="description"/>
+                             <field name="no"/>
+                             <field name="code"/>
+                            <field name="active"/>
+
+                        </group>
+                    </group>
+                </sheet>
+                <chatter class="oe_chatter">
+                     <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </chatter>
+            </form>
+        </field>
+
+    </record>
+    <record id="building_view_search" model="ir.ui.view">
+        <field name="name">building search</field>
+        <field name="model">building</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="code"/>
+            </search>
+        </field>
+
+    </record>
+    <record id="building_action" model="ir.actions.act_window">
+        <field name="name">Building</field>
+        <field name="res_model">building</field>
+    </record>
+    <menuitem
+         id="building_ment_item"
+         name = "buildings"
+         parent="properties_root_menu"
+         action = "building_action"
+    />
+</odoo>

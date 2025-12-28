@@ -1,0 +1,56 @@
+<odoo>
+    <record id="tag_view_tree" model="ir.ui.view">
+        <field name="name">tag tree</field>
+        <field name="model">tag</field>
+        <field name="arch" type="xml">
+            <list multi_edit="True" create="1" edit="1" delete="1">
+                <field name="name"/>
+            </list>
+        </field>
+
+    </record>
+
+    <record id="tag_view_form" model="ir.ui.view">
+        <field name="name">tag form</field>
+        <field name="model">tag</field>
+        <field name="arch" type="xml">
+            <form  create="1" edit="1" delete="1">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+
+    </record>
+<!--    <record id="property_view_search" model="ir.ui.view">-->
+<!--        <field name="name">property search</field>-->
+<!--        <field name="model">property</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <search>-->
+<!--                <field name="postcode"/>-->
+<!--                <field name="name"/>-->
+
+<!--                <filter name="is_garage" string="with garage" domain="[('garage','=',True)]"/>-->
+<!--                <filter name="is_garage" string="without garage" domain="[('garage','=',False)]"/>-->
+
+<!--                <filter name="group_garage" string="Garage" context="{'group_by':'garage'}"/>-->
+<!--            </search>-->
+<!--        </field>-->
+
+<!--    </record>-->
+    <record id="tag_action" model="ir.actions.act_window">
+        <field name="name">tag</field>
+        <field name="res_model">tag</field>
+    </record>
+    <menuitem
+         id="tags_ment_item"
+         name = "tags"
+         parent="configuration_menu"
+         action = "tag_action"
+    />
+</odoo>

@@ -1,0 +1,70 @@
+<odoo>
+    <record id="property_report" model="ir.actions.report">
+        <field name="name">Property Report</field>
+        <field name="model">property</field>
+        <!--<field name="report_type">qweb-pdf</field>-->
+        <field name="report_type">qweb-html</field>
+        <field name="binding_model_id" ref="model_property"/>
+        <field name="binding_type">report</field>
+        <field name="report_name">AppOne.property_report_template</field>
+    </record>
+    <template id="property_report_template">
+        <t t-call="web.html_container">
+            <t t-call="web.external_layout">
+                <t t-foreach="docs" t-as="o">
+                    <h1 style="font-family:'ElmsSans-Italic-VariableFont_wght';">Property Record</h1>
+                    <table class="table table-sm mt16">
+                        <thead>
+                            <tr>
+                                <th colspan="4">General Information</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Name</strong></td>
+                                <td><t t-esc="o.name"/></td>
+                                <td><strong>Postcode</strong></td>
+                                <td><t t-esc="o.postcode"/></td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <th colspan="4">Additional Information</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Owner</strong></td>
+                                <td><span t-field="o.owner_id"/></td>
+                                <td><strong>phone</strong></td>
+                                <td><t t-esc="o.owner_phone"/></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br/>
+                    <table class="table table-sm mt16">
+                        <thead>
+                            <th>
+                                Description
+                            </th>
+                            <th>
+                                Area(m2)
+                            </th>
+
+                        </thead>
+                        <tbody>
+                            <t t-foreach="o.line_ids" t-as="line">
+                            <td>
+                                <span t-esc="line.description"/>
+                            </td>
+                                <td>
+                                <t t-esc="line.area"/>
+                            </td>
+                            </t>
+                        </tbody>
+                    </table>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

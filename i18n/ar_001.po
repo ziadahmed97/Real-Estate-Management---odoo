@@ -1,0 +1,769 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* AppOne
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-11 14:58+0000\n"
+"PO-Revision-Date: 2025-11-11 17:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.8\n"
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_report_template
+msgid "<strong>Name</strong>"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_report_template
+msgid "<strong>Owner</strong>"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_report_template
+msgid "<strong>Postcode</strong>"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_report_template
+msgid "<strong>phone</strong>"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__message_needaction
+#: model:ir.model.fields,field_description:AppOne.field_property__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__active
+#: model:ir.model.fields,field_description:AppOne.field_property__active
+msgid "Active"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__activity_ids
+#: model:ir.model.fields,field_description:AppOne.field_property__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__activity_exception_decoration
+#: model:ir.model.fields,field_description:AppOne.field_property__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__activity_state
+#: model:ir.model.fields,field_description:AppOne.field_property__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__activity_type_icon
+#: model:ir.model.fields,field_description:AppOne.field_property__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_report_template
+msgid "Additional Information"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_client__address
+#: model:ir.model.fields,field_description:AppOne.field_owner__address
+#: model:ir.model.fields,field_description:AppOne.field_property__owner_address
+msgid "Address"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property_history_line__area
+#: model:ir.model.fields,field_description:AppOne.field_property_line__area
+msgid "Area"
+msgstr "المساحة"
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_report_template
+msgid "Area(m2)"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__message_attachment_count
+#: model:ir.model.fields,field_description:AppOne.field_property__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__bedrooms
+msgid "Bedrooms"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.actions.act_window,name:AppOne.building_action
+msgid "Building"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields.selection,name:AppOne.selection__property__state__closed
+msgid "Closed"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__code
+msgid "Code"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model,name:AppOne.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__create_time
+msgid "Create Time"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__create_uid
+#: model:ir.model.fields,field_description:AppOne.field_change_state__create_uid
+#: model:ir.model.fields,field_description:AppOne.field_client__create_uid
+#: model:ir.model.fields,field_description:AppOne.field_model_a__create_uid
+#: model:ir.model.fields,field_description:AppOne.field_model_b__create_uid
+#: model:ir.model.fields,field_description:AppOne.field_owner__create_uid
+#: model:ir.model.fields,field_description:AppOne.field_property__create_uid
+#: model:ir.model.fields,field_description:AppOne.field_property_history__create_uid
+#: model:ir.model.fields,field_description:AppOne.field_property_history_line__create_uid
+#: model:ir.model.fields,field_description:AppOne.field_property_line__create_uid
+#: model:ir.model.fields,field_description:AppOne.field_tag__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__create_date
+#: model:ir.model.fields,field_description:AppOne.field_change_state__create_date
+#: model:ir.model.fields,field_description:AppOne.field_client__create_date
+#: model:ir.model.fields,field_description:AppOne.field_model_a__create_date
+#: model:ir.model.fields,field_description:AppOne.field_model_b__create_date
+#: model:ir.model.fields,field_description:AppOne.field_owner__create_date
+#: model:ir.model.fields,field_description:AppOne.field_property__create_date
+#: model:ir.model.fields,field_description:AppOne.field_property_history__create_date
+#: model:ir.model.fields,field_description:AppOne.field_property_history_line__create_date
+#: model:ir.model.fields,field_description:AppOne.field_property_line__create_date
+#: model:ir.model.fields,field_description:AppOne.field_tag__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__date_availability
+msgid "Date Availability"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__date_time
+msgid "Date Time"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__description
+#: model:ir.model.fields,field_description:AppOne.field_property__description
+#: model:ir.model.fields,field_description:AppOne.field_property_history_line__description
+#: model:ir.model.fields,field_description:AppOne.field_property_line__description
+#: model_terms:ir.ui.view,arch_db:AppOne.property_report_template
+msgid "Description"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__diff
+msgid "Diff"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__display_name
+#: model:ir.model.fields,field_description:AppOne.field_change_state__display_name
+#: model:ir.model.fields,field_description:AppOne.field_client__display_name
+#: model:ir.model.fields,field_description:AppOne.field_model_a__display_name
+#: model:ir.model.fields,field_description:AppOne.field_model_b__display_name
+#: model:ir.model.fields,field_description:AppOne.field_model_d__display_name
+#: model:ir.model.fields,field_description:AppOne.field_owner__display_name
+#: model:ir.model.fields,field_description:AppOne.field_property__display_name
+#: model:ir.model.fields,field_description:AppOne.field_property_history__display_name
+#: model:ir.model.fields,field_description:AppOne.field_property_history_line__display_name
+#: model:ir.model.fields,field_description:AppOne.field_property_line__display_name
+#: model:ir.model.fields,field_description:AppOne.field_tag__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields.selection,name:AppOne.selection__change_state__state__draft
+#: model:ir.model.fields.selection,name:AppOne.selection__property__state__draft
+msgid "Draft"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields.selection,name:AppOne.selection__property__garden_orientation__east
+msgid "East"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__expected_price
+msgid "Expected Price"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__expected_selling_date
+msgid "Expected Selling Date"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__message_follower_ids
+#: model:ir.model.fields,field_description:AppOne.field_property__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__message_partner_ids
+#: model:ir.model.fields,field_description:AppOne.field_property__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,help:AppOne.field_building__activity_type_icon
+#: model:ir.model.fields,help:AppOne.field_property__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__garage
+msgid "Garage"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__garden_orientation
+msgid "Garden Orientation"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_report_template
+msgid "General Information"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.building_view_form
+#: model_terms:ir.ui.view,arch_db:AppOne.property_view_form
+msgid "General info"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__has_message
+#: model:ir.model.fields,field_description:AppOne.field_property__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property_history_line__history_id
+msgid "History"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__id
+#: model:ir.model.fields,field_description:AppOne.field_change_state__id
+#: model:ir.model.fields,field_description:AppOne.field_client__id
+#: model:ir.model.fields,field_description:AppOne.field_model_a__id
+#: model:ir.model.fields,field_description:AppOne.field_model_b__id
+#: model:ir.model.fields,field_description:AppOne.field_model_d__id
+#: model:ir.model.fields,field_description:AppOne.field_owner__id
+#: model:ir.model.fields,field_description:AppOne.field_property__id
+#: model:ir.model.fields,field_description:AppOne.field_property_history__id
+#: model:ir.model.fields,field_description:AppOne.field_property_history_line__id
+#: model:ir.model.fields,field_description:AppOne.field_property_line__id
+#: model:ir.model.fields,field_description:AppOne.field_tag__id
+msgid "ID"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__activity_exception_icon
+#: model:ir.model.fields,field_description:AppOne.field_property__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,help:AppOne.field_building__activity_exception_icon
+#: model:ir.model.fields,help:AppOne.field_property__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,help:AppOne.field_building__message_needaction
+#: model:ir.model.fields,help:AppOne.field_property__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,help:AppOne.field_building__message_has_error
+#: model:ir.model.fields,help:AppOne.field_building__message_has_sms_error
+#: model:ir.model.fields,help:AppOne.field_property__message_has_error
+#: model:ir.model.fields,help:AppOne.field_property__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__message_is_follower
+#: model:ir.model.fields,field_description:AppOne.field_property__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__is_late
+msgid "Is Late"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__write_uid
+#: model:ir.model.fields,field_description:AppOne.field_change_state__write_uid
+#: model:ir.model.fields,field_description:AppOne.field_client__write_uid
+#: model:ir.model.fields,field_description:AppOne.field_model_a__write_uid
+#: model:ir.model.fields,field_description:AppOne.field_model_b__write_uid
+#: model:ir.model.fields,field_description:AppOne.field_owner__write_uid
+#: model:ir.model.fields,field_description:AppOne.field_property__write_uid
+#: model:ir.model.fields,field_description:AppOne.field_property_history__write_uid
+#: model:ir.model.fields,field_description:AppOne.field_property_history_line__write_uid
+#: model:ir.model.fields,field_description:AppOne.field_property_line__write_uid
+#: model:ir.model.fields,field_description:AppOne.field_tag__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__write_date
+#: model:ir.model.fields,field_description:AppOne.field_change_state__write_date
+#: model:ir.model.fields,field_description:AppOne.field_client__write_date
+#: model:ir.model.fields,field_description:AppOne.field_model_a__write_date
+#: model:ir.model.fields,field_description:AppOne.field_model_b__write_date
+#: model:ir.model.fields,field_description:AppOne.field_owner__write_date
+#: model:ir.model.fields,field_description:AppOne.field_property__write_date
+#: model:ir.model.fields,field_description:AppOne.field_property_history__write_date
+#: model:ir.model.fields,field_description:AppOne.field_property_history_line__write_date
+#: model:ir.model.fields,field_description:AppOne.field_property_line__write_date
+#: model:ir.model.fields,field_description:AppOne.field_tag__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__line_ids
+#: model:ir.model.fields,field_description:AppOne.field_property_history__line_ids
+msgid "Line"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__message_has_error
+#: model:ir.model.fields,field_description:AppOne.field_property__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__message_ids
+#: model:ir.model.fields,field_description:AppOne.field_property__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__my_activity_date_deadline
+#: model:ir.model.fields,field_description:AppOne.field_property__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__name
+#: model:ir.model.fields,field_description:AppOne.field_client__name
+#: model:ir.model.fields,field_description:AppOne.field_owner__name
+#: model:ir.model.fields,field_description:AppOne.field_property__name
+#: model:ir.model.fields,field_description:AppOne.field_tag__name
+msgid "Name"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property_history__new_state
+msgid "New State"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__activity_date_deadline
+#: model:ir.model.fields,field_description:AppOne.field_property__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__activity_summary
+#: model:ir.model.fields,field_description:AppOne.field_property__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__activity_type_id
+#: model:ir.model.fields,field_description:AppOne.field_property__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__next_time
+msgid "Next Time"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__no
+msgid "No"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields.selection,name:AppOne.selection__property__garden_orientation__north
+msgid "North"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__message_needaction_counter
+#: model:ir.model.fields,field_description:AppOne.field_property__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__message_has_error_counter
+#: model:ir.model.fields,field_description:AppOne.field_property__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,help:AppOne.field_building__message_needaction_counter
+#: model:ir.model.fields,help:AppOne.field_property__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,help:AppOne.field_building__message_has_error_counter
+#: model:ir.model.fields,help:AppOne.field_property__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property_history__old_state
+msgid "Old State"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__owner_id
+msgid "Owner"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields.selection,name:AppOne.selection__change_state__state__pending
+#: model:ir.model.fields.selection,name:AppOne.selection__property__state__pending
+msgid "Pending"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_client__phone
+#: model:ir.model.fields,field_description:AppOne.field_owner__phone
+#: model:ir.model.fields,field_description:AppOne.field_property__owner_phone
+msgid "Phone"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__postcode
+msgid "Postcode"
+msgstr "رقم البريد"
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_res_partner__price
+#: model:ir.model.fields,field_description:AppOne.field_res_users__price
+msgid "Price"
+msgstr "السعر"
+
+#. module: AppOne
+#: model:ir.ui.menu,name:AppOne.properties_root_menu
+#: model:ir.ui.menu,name:AppOne.property_ment_item
+msgid "Properties"
+msgstr "الممتلكات"
+
+#. module: AppOne
+#: model:ir.model,name:AppOne.model_property
+#: model:ir.model.fields,field_description:AppOne.field_change_state__property_id
+#: model:ir.model.fields,field_description:AppOne.field_client__property_ids
+#: model:ir.model.fields,field_description:AppOne.field_owner__property_ids
+#: model:ir.model.fields,field_description:AppOne.field_property_history__property_id
+#: model:ir.model.fields,field_description:AppOne.field_property_line__property_id
+#: model:ir.model.fields,field_description:AppOne.field_res_partner__property_id
+#: model:ir.model.fields,field_description:AppOne.field_res_users__property_id
+#: model:ir.model.fields,field_description:AppOne.field_sale_order__property_id
+msgid "Property"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_report_template
+msgid "Property Record"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.actions.report,name:AppOne.property_report
+msgid "Property Report"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.ui.menu,name:AppOne.real_estate_root_menu
+msgid "Real Estate"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_change_state__reason
+#: model:ir.model.fields,field_description:AppOne.field_property_history__reason
+msgid "Reason"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__ref
+msgid "Ref"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__activity_user_id
+#: model:ir.model.fields,field_description:AppOne.field_property__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__message_has_sms_error
+#: model:ir.model.fields,field_description:AppOne.field_property__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model,name:AppOne.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__selling_price
+msgid "Selling Price"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields.selection,name:AppOne.selection__property__state__sold
+msgid "Sold"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields.selection,name:AppOne.selection__property__garden_orientation__south
+msgid "South"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_change_state__state
+#: model:ir.model.fields,field_description:AppOne.field_property__state
+msgid "State"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,help:AppOne.field_building__activity_state
+#: model:ir.model.fields,help:AppOne.field_property__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property__tag_ids
+msgid "Tag"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,help:AppOne.field_building__activity_exception_decoration
+#: model:ir.model.fields,help:AppOne.field_property__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_property_history__user_id
+msgid "User"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,field_description:AppOne.field_building__website_message_ids
+#: model:ir.model.fields,field_description:AppOne.field_property__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields,help:AppOne.field_building__website_message_ids
+#: model:ir.model.fields,help:AppOne.field_property__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.fields.selection,name:AppOne.selection__property__garden_orientation__west
+msgid "West"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_view_form
+msgid "action"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_view_form
+msgid "additional info"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_history_view_form
+#: model_terms:ir.ui.view,arch_db:AppOne.property_view_form
+msgid "bedrooms"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model,name:AppOne.model_building
+msgid "building Record"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.ui.menu,name:AppOne.building_ment_item
+msgid "buildings"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.change_state_wizard_view_form
+msgid "cancel"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.actions.act_window,name:AppOne.change_state_action
+#: model:ir.actions.server,name:AppOne.property_change_state_server_action
+msgid "change state"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model,name:AppOne.model_change_state
+msgid "change.state"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model,name:AppOne.model_client
+msgid "client"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.ui.menu,name:AppOne.configuration_menu
+msgid "configurations"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.change_state_wizard_view_form
+msgid "confirm"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.ui.menu,name:AppOne.property_history_ment_item
+msgid "history"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model,name:AppOne.model_model_a
+msgid "model.a"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model,name:AppOne.model_model_b
+msgid "model.b"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model,name:AppOne.model_model_c
+msgid "model.c"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model,name:AppOne.model_model_d
+msgid "model.d"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.actions.act_window,name:AppOne.owner_action
+#: model:ir.model,name:AppOne.model_owner
+msgid "owner"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.ui.menu,name:AppOne.owner_ment_item
+msgid "owners"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.actions.act_window,name:AppOne.property_action
+msgid "property"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.actions.act_window,name:AppOne.property_history_action
+#: model:ir.model,name:AppOne.model_property_history
+msgid "property history"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model,name:AppOne.model_property_history_line
+msgid "property.history.line"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model,name:AppOne.model_property_line
+msgid "property.line"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.actions.server,name:AppOne.selling_date_action_ir_actions_server
+msgid "property: check selling date"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_view_form
+msgid "set to draft"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_view_form
+msgid "set to pending"
+msgstr ""
+
+#. module: AppOne
+#: model_terms:ir.ui.view,arch_db:AppOne.property_view_form
+msgid "set to sold"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.actions.act_window,name:AppOne.tag_action
+#: model:ir.model,name:AppOne.model_tag
+msgid "tag"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.ui.menu,name:AppOne.tag_item
+#: model:ir.ui.menu,name:AppOne.tags_ment_item
+msgid "tags"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.constraint,message:AppOne.constraint_client_unique_name
+#: model:ir.model.constraint,message:AppOne.constraint_owner_unique_name
+msgid "this name exists"
+msgstr ""
+
+#. module: AppOne
+#: model:ir.model.constraint,message:AppOne.constraint_property_unique_name
+msgid "this name exists!"
+msgstr ""
